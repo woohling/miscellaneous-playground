@@ -1,0 +1,8 @@
+{
+  "name": "miscellaneous-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/woohling/miscellaneous-playground.git",
+  "author": "woohling <woohling@126.com>",
+  "license": "MIT"
+}
