@@ -6,8 +6,10 @@
   "author": "woohling <woohling@126.com>",
   "license": "MIT",
   "scripts": {
-    "test": "karma start",
-    "test:watch": "karma start --auto-watch --no-single-run"
+    "test": "karma start karma.config.js",
+    "test:watch": "karma start karma.config.js --auto-watch --no-single-run",
+    "test:mocha": "mocha",
+    "test:mocha-algorithm": "mocha src/algorithm/__test__/*.js"
   },
   "dependencies": {
     "lodash": "^4.17.5",
